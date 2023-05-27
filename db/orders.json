@@ -1,0 +1,19 @@
+[
+    {
+        "id": "1",
+        "name": "Alex",
+        "email": "darknaya@outlook.com",
+        "telephone": "0994967251",
+        "address": "Odessa",
+        "order": [
+            {
+                "dishId": "1",
+                "quantityProd": "2"
+            },
+            {
+                "dishId": "2",
+                "quantityProd": "1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./files/materialize.min.css" />
+   <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="navbar-fixed">
+            <nav>
+               <div class="nav-wrapper">
+                  <a href="#" class="brand-logo left black-text">Restro+</a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger right">
+                     <div class="icon-menu_open"></div>
+                  </a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                     <li><a href="#!" class="nav__link">Доставка и оплата</a></li>
+                     <li><a href="#!" class="nav__link">О нас</a></li>
+                     <li><a href="#!" class="nav__link">Ресторанам</a></li>
+                     <li><a href="#!" class="nav__link">Курьерам</a></li>
+                     <li><a href="#!" class="nav__link">Контакты</a></li>
+                  </ul>
+               </div>
+               <!--/nav-wrapper -->
+            </nav>
+         </div>
+         <div class="navbar-fixed">
+            <nav>
+               <div class="nav-wrapper">
+                  <ul class="" id="nav-mobile">
+                     <li><a href="#myModal" class="nav__link button-auth modal-link">Вход</a></li>
+                     <li><a href="#!" class="nav__link">Регистрация</a></li>
+                     <li><a class="nav__link button button-out">Выйти</a></li>
+                     <li><a href="#!" class="nav__link user-name"></a></li>
+                     <li><a href="cart.html" target="_self" class="nav__link button button-cart">Корзина</a>
+                     </li>
+                  </ul>
+               </div>
+               <!--/nav-wrapper -->
+            </nav>
+         </div>
+         <ul class="sidenav" id="mobile-demo">
+            <li><a href="#!" class="nav__link">Доставка и оплата</a></li>
+            <li><a href="#!" class="nav__link">О нас</a></li>
+            <li><a href="#!" class="nav__link">Ресторанам</a></li>
+            <li><a href="#!" class="nav__link">Курьерам</a></li>
+            <li><a href="#!" class="nav__link">Контакты</a></li>
+         </ul>
+      </header>
+      <main class="main">
+         <div class="container">
+            <div class="restaurants">
+               <div class="cards cards-restaurants">
+               </div>
+               <!--/cards cards-restaurants -->
+            </div>
+            <!--/restaurants -->
+            <div class="cards cards-menu">
+            </div>
+            <!--/restaurants -->
+         </div>
+         <!--/container -->
+      </main>
+      <div class="modal-overlay" id="myModal">
+         <div class="modal-wrap">
+            <div class="modal-content">
+               <div class="modal-info">
+                  <div class="modal-text">Вход в кабинет</div>
+                  <a href="#" class="modal-close" type="button">X</a>
+               </div>
+               <form action="#" id="loginForm" class="modal-form">
+                  <fieldset class="input-field">
+                     <input type="text" placeholder="Введите свое имя" id="login">
+                     <div class="input__block"><input type="password" class="user-password"
+                           placeholder="Введите свой пароль" id="password" autocomplete="none"><span
+                           class="icon-eye"></span><span class="icon-eye-blocked"></span></div>
+                     <input type="submit" class="btn waves-effect transparent" value="Войти" />
+                     <a href="#!" class="btn waves-effect transparent">Забыли пароль?</a>
+                  </fieldset>
+               </form>
+            </div>
+            <!--/modal-auth -->
+         </div>
+         <!--/ modal-wrap-->
+      </div>
+      <!--/modal-overlay -->
+      <div class="modal-overlay" id="myModal2">
+         <div class="modal-wrap">
+            <div class="modal-content">
+               <div class="modal-info"> Завершите заказ в предыдущем ресторане! </div>
+            </div>
+            <!--/modal-auth -->
+         </div>
+         <!--/ modal-wrap-->
+      </div>
+      <!--/modal-overlay -->
+   </div>
+   <!--/wrapper -->
+   <!-- <script src="./js/auth.js" type="text/javascript"></script> -->
+   <script src="./files/materialize.min.js" type="text/javascript"></script>
+   <script src="./js/popup.js" type="text/javascript"></script>
+   <script src="./js/auth.js" type="text/javascript"></script>
+   <script src="./js/partners.js" type="text/javascript"></script>
+   <script src="./js/menu.js" type="text/javascript"></script>
+   <!-- <script src="./js/cart.js" type="text/javascript"></script> -->
+</body>
+
+</html>
